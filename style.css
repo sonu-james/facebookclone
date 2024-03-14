@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ 
+}
+.banner-container{
+    width: 100%;
+    height: 650px;
+    /* background-image: linear-gradient(to top left,#ff6200,rgba(255, 255, 0, 0.996));
+     background-image: linear-gradient(#8C92AC,#fff);  */
+    background: rgb(235,237,246);
+    background: linear-gradient(0deg, rgba(235,237,246,1) 100%, rgba(255,255,255,1) 100%);
+    position: absolute;
+    top: 0;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.left-section img{
+    /* background-color: antiquewhite; */
+    margin-top: 138px;
+    margin-left: 262px;
+
+}
+.left-section p{
+    
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 298px;
+    margin-top: -4%;
+}
+
+.login{
+    background-color:#fff;
+    width: 50%;
+    height: 381px;
+    border-radius: 6px;
+    margin-left: 135px;
+    margin-top: 100px;
+    
+}
+.input-group input{
+   
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 17px;
+    border:none;
+    border :solid 1px;
+    border-color:gainsboro;
+    padding: 8px;
+    
+}
+.input-group{
+    padding: 11px;
+}
+.input-group .btn{
+    background-color: #0866ff;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+
+}
+.forgot-link,.new-acc{
+    /* background-color:aliceblue; */
+    width: 60%;
+    height: 50px;  
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+    padding-left: 28px;
+    padding-top: 14px;
+    margin-bottom: 7px;
+}
+.forgot-link ,.new-acc , a{
+    text-decoration: none;
+    color: #0866ff;
+    border-radius: 6px;
+}
+.new-acc{
+    background-color: #00A400;
+    margin-top: 23px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: gainsboro;
+    margin:auto;
+}
+.new-acc a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.msg a{
+    margin-left: 154px;
+    color: black;
+    text-decoration: none;
+}
+.msg{
+    font-size: 15px;
+}
+.input-group input:focus{
+    border-color: #0866ff;
+}
